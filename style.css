@@ -1,63 +1,60 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f8f9fa;
-}
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+        }
 
-.hero-section {
-    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
-                url('https://www.unp.ac.id/images/bg-unp.jpg');
-    background-size: cover;
-    background-position: center;
-    border-bottom: 3px solid #28a745;
-}
+        .hero-section {
+            background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
+                        url('https://www.unp.ac.id/assets/images/bg-unp.jpg');
+            background-size: cover;
+            background-position: center;
+            border-bottom: 3px solid #28a745;
+        }
 
-.card {
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 30px;
-}
+        .card {
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
 
-.card-header {
-    font-weight: 600;
-}
+        .card-header {
+            font-weight: 600;
+        }
 
-.navbar {
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
 
-#reportContainer {
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-}
+        .page {
+            display: none;
+            padding: 20px 0;
+        }
 
-.report-header {
-    border-bottom: 2px solid #dee2e6;
-    padding-bottom: 20px;
-}
+        .page.active {
+            display: block;
+        }
 
-.signature-space {
-    border-bottom: 1px solid #212529;
-    margin: 20px auto;
-    width: 300px;
-}
+        .table-responsive {
+            margin-top: 20px;
+        }
 
-.table-responsive {
-    margin-top: 20px;
-}
+        .report-header {
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 20px;
+        }
 
-@media print {
-    .no-print, nav, footer {
-        display: none !important;
-    }
-    
-    #reportContainer {
-        padding: 0;
-        box-shadow: none;
-    }
-    
-    body {
-        background-color: white !important;
-    }
-}
+        .signature-space {
+            border-bottom: 1px solid #212529;
+            margin: 20px auto;
+            width: 300px;
+        }
+
+        @media print {
+            .no-print, nav, footer {
+                display: none !important;
+            }
+            
+            body {
+                background-color: white !important;
+            }
+        }
