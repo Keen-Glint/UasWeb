@@ -5,7 +5,7 @@ body {
 
 .hero-section {
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
-                url('https://www.unp.ac.id/assets/images/bg-unp.jpg');
+                url('https://www.unp.ac.id/images/bg-unp.jpg');
     background-size: cover;
     background-position: center;
     border-bottom: 3px solid #28a745;
